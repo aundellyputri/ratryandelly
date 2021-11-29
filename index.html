@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- boostrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+	<title>JASA WEBSITE</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!---navigasi bar--->
+	<nav>
+		<div class="container">
+			<div class="logo"><a href="index.html">JagoWeb.id</a></div>
+			<div class="menu">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#courses">Courses</a></li>
+					<li><a href="#tutors">Tutors</a></li>
+					<li><a href="#partners">Partners</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="" class="tombol-ungu">Sing Up</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+	<!--section home-->
+		<section id="home">
+			<img src="img/gambar1.jpg">
+			<div class="kolom">
+				<p class="deskripsi">Learning to make a website</p>
+				<h2>Easy,Fast,and Wort it</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p><a href="" class="tombol-hitam">Red More</a></p>
+			</div>
+		</section>
+
+		<!-- section cuorses -->
+		<section id="courses">
+			<div class="kolom">
+				<p class="deskripsi">You Will Need This</p>
+				<h2>Online Courses</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p><a href="" class="tombol-ungu">Red More</a></p>
+			</div>
+			<img src="img/gambar2.jpg">
+		</section>
+
+		<section id="tutor">
+			<div class="tengah">
+				<div class="kolom">
+					<p class="deskripsi">OUR TOP TUTORS</p>
+					<h2>Tutors</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
+				</div>
+				<div class="kolom-tutor">
+					<div class="list-tutor">
+						<img src="img/person1.png">
+						<p>Alexandria</p>
+					</div>
+					<div class="list-tutor">
+						<img src="img/person2.jpg">
+						<p>Jhon deo</p>
+					</div>
+					<div class="list-tutor">
+						<img src="img/person3.jpg">
+						<p>Micael wills</p>
+					</div>
+					<div class="list-tutor">
+						<img src="img/person4.jpg">
+						<p>Bruce Dell</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section partners -->
+		<section id="partners">
+			<div class="tengah">
+				<div class="kolom">
+					<p class="deskripsi">OUR TOP TUTORS</p>
+					<h2>Partners</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
+				</div>
+				<div class="kolom-tutor">
+					<div class="list-tutor">
+						<img src="img/campus1.jpg">
+					</div>
+					<div class="list-tutor">
+						<img src="img/campus2.jpg">
+					</div>
+					<div class="list-tutor">
+						<img src="img/campus3.jpg">
+					</div>
+					<div class="list-tutor">
+						<img src="img/campus4.jpg">
+					</div>
+					<div class="list-tutor">
+						<img src="img/campus5.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- contact us -->
+  
+   <section id="contact">
+        <div class="container">
+          <div class="row-mb-4 ">
+           <div class="col text-center">
+            <h2>Contact Us</h2>
+           </div>
+         </div>
+          <div class="row justify-content-center">
+           <div class="col-md-6">
+           <form name="submit-to-google-sheet">
+            <!-- alert -->
+            <div class="alert alert-success alert-dismissible fade show d-none pesan-terkirim" role="alert">
+                <strong>Terima Kasih!</strong> Pesan anda telah kami terima,
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+             <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                </div>
+             <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+             </div>
+             <div class="mb-3">
+               <label for="pesan" class="form-label">Pesan</label>
+               <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+             </div>
+               <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
+               <button class="btn btn-primary d-none btn-loading" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+           </form>
+         </div>
+       </div>
+     </div>
+    </div>
+</section>
+
+	<!-- section contact -->
+	<div id="contact">
+		<div class="container">
+			<div class="footer">
+				<div class="kolom-footer">
+					<h3>Jago Web.id</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="kolom-footer">
+					<h3>About</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="kolom-footer">
+					<h3>Addrees</h3>
+					<p>H.Pangeran Danal Street</p>
+					<p>Zip code:31312</p>
+				</div>
+				<div class="kolom-footer">
+					<h3>Sosial</h3>
+					<p><strong>Whatsaap:</strong>+62 852-7789-3452</p>
+					<p><strong>Instagram:</strong>+@aundelly</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+          <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzAAUQyMKgWS5BBTzwzRfRcE_SrtbYz95U8UOhqMqYoO9W_HOkjeEYY5ULY8Fz8NGu_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const pesanTerlirim = document.querySelector('.pesan-terkirim')
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          /*tombol loading hilang*/
+          btnKirim.classList.toggle('d-none');
+          btnLoading.classList.toggle('d-none')
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{ console.log('Success!', response)
+              /*loading hilang,tombol muncul*/
+               btnKirim.classList.toggle('d-none');
+               btnLoading.classList.toggle('d-none')
+               /*setelah berhasil muncul alert*/
+               pesanTerlirim.classList.toggle('d-none')
+               /*reset form*/
+               form.reset();
+          })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+	<div id="coppyright">
+		<div class="container">
+			&copy; 2021. <b>created by AURORA</b>- ALL Right Reserved
+		</div>
+	</div>
+
+</body>
+</html>
